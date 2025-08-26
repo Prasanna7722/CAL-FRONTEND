@@ -54,9 +54,15 @@ class App extends Component {
               <td><label id='L1'>{RES}</label></td>
             </tr>
             <tr>
-              <td></td>
-              <td><button onClick={()=>this.add()}>ADD</button></td>              
-            </tr>
+  <td></td>
+  <td>
+    <button onClick={() => this.add()}>ADD</button>&nbsp;
+    <button onClick={() => this.sub()}>SUB</button>&nbsp;
+    <button onClick={() => this.mul()}>MUL</button>&nbsp;
+    <button onClick={() => this.div()}>DIV</button>
+  </td>
+</tr>
+
           </table>
         </section>
         <footer>Copyright @ 2025. All rights reserved.</footer>
